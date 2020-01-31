@@ -1,0 +1,12 @@
+Source: ros-turbulent-rcl-logging-spdlog
+Section: misc
+Priority: extra
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libspdlog-dev, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rcutils, ros-turbulent-spdlog-vendor, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rcl-logging-spdlog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rcutils, ros-turbulent-ros-workspace
+Description: Implementation of rcl_logging API for an spdlog backend.
