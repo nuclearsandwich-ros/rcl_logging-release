@@ -1,0 +1,12 @@
+Source: ros-turbulent-rcl-logging-log4cxx
+Section: misc
+Priority: extra
+Maintainer: Amazon B9 <amazon-b9-ros@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx-dev, python3-empy, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch-testing, ros-turbulent-rcutils, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rcl-logging-log4cxx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx-dev, ros-turbulent-rcutils, ros-turbulent-ros-workspace
+Description: C API providing common interface to a shared library wrapping 3rd party loggers.
