@@ -1,1 +1,1 @@
-{"trim": "", "base": "4836a51", "trimbase": "", "parent": "debian/eloquent/rcl_logging_spdlog", "previous": "2cdfa82"}
+{"base": "78247bf", "parent": "debian/verystable/rcl_logging_spdlog", "previous": "4ee5a9d", "trim": "", "trimbase": ""}
