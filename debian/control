@@ -1,0 +1,12 @@
+Source: ros-verystable-rcl-logging-noop
+Section: misc
+Priority: optional
+Maintainer: Amazon B9 <amazon-b9-ros@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), python3-empy, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch-testing, ros-verystable-rcutils, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rcl-logging-noop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rcutils, ros-verystable-ros-workspace
+Description: An rcl logger implementation that doesn't do anything with log messages.
