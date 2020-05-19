@@ -1,1 +1,1 @@
-{"trim": "", "base": "878bc22", "trimbase": "", "parent": "release/foxy/rcl_logging_spdlog", "previous": "2938ff4"}
+{"base": "308ed7b", "parent": "release/testing/rcl_logging_spdlog", "previous": "b90a959", "trim": "", "trimbase": ""}
