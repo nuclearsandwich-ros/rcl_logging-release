@@ -1,0 +1,12 @@
+Source: ros-testing-rcl-logging-log4cxx
+Section: misc
+Priority: optional
+Maintainer: Amazon B9 <amazon-b9-ros@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx-dev, python3-empy, ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-pytest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-launch-testing, ros-testing-rcutils, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rcl-logging-log4cxx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx-dev, ros-testing-rcutils, ros-testing-ros-workspace
+Description: C API providing common interface to a shared library wrapping 3rd party loggers.
