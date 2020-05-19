@@ -1,0 +1,12 @@
+Source: ros-testing-rcl-logging-spdlog
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libspdlog-dev, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rcutils, ros-testing-spdlog-vendor, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rcl-logging-spdlog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libspdlog-dev, ros-testing-rcutils, ros-testing-spdlog-vendor, ros-testing-ros-workspace
+Description: Implementation of rcl_logging API for an spdlog backend.
